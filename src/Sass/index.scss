@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$color_Bg_Body:#FCFCFC;
+$color_Black1: #303030;
+$color_Black2: #3D3D3D;
+$color_White1:#FFFFFF;
+$color_White2:#DADADA;
+* {
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: $color_Bg_Body;
+    
+}
+header {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Azeret Mono', monospace;
+}
+p {
+    font-family: 'Heebo', sans-serif;
+}
+@mixin small {
+    @media only screen and (min-width: 0px) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media only screen and (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin large {
+    @media only screen and (min-width: 1000px) {
+        @content;
+    }
+}
+button {
+    background:transparent;
+    outline:none;
+    border: none;
+    width:50px;
+    height:50px;
+    border-radius:100%;
+    transition: all 0.3s ease;
+    &:hover {
+        cursor: pointer;
+        background:$color_Black1;
+        svg {
+            path{
+                stroke:$color_White1;
+            }
+        }
+
+    }
+}
+.__btn_link {
+    padding:8px;
+    background: linear-gradient(90deg, #BDBBBE 0%, #9D9EA3 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:100px;
+    color:$color_Black1;
+    font-weight: 700;
+    font-family: 'Heebo';
+    font-size:14px;
+    outline: none;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    p {
+        margin-right: 8px
+    }
+    &:hover {
+        cursor: pointer;
+        background:$color_Black1;
+        color:$color_White1;
+        svg {
+            path {
+
+                fill:$color_White1;
+            }
+        }
+    }
+
+}
+@import './NavBar/navbar';
+@import './Presentation/presentation';
+@import './About_Us/about';
+@import './Skills/index';
+@import './MyWork/myWork';
+@import './Footer/footer';

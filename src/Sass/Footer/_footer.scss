@@ -1,0 +1,55 @@
+footer {
+    display: flex;
+    width: calc(100% - 40px);
+    min-height: 40vh;
+    justify-content:center;
+    background: linear-gradient(359.27deg, #101010 3.06%, #303030 99.33%);
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    h2 {
+        font-size: 2em;
+        color:$color_White1;
+    } 
+    p {
+        font-size: 1em;
+        color:$color_White2;
+    }
+    .__footer_items {
+        width: calc(50% - 20px);
+        display:flex;
+        min-height: 100px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 20px;
+       
+    }
+    .__footer_item_contact {
+        padding: 5px;
+        h5 {
+            color: rgba(157, 158, 163, 1);
+            margin-bottom: 5px;
+        }
+        p {
+            font-size:12px;
+            color:$color_White2;
+        }
+        a {
+            // margin-left: 10px;
+            color:$color_White2;
+            text-decoration: none;
+            font-family: 'Heebo';
+            &:hover {
+                cursor: pointer;
+                svg {
+
+                    path {
+                        fill:$color_White1;
+                    }
+                }
+            } 
+        }
+    }
+
+}
