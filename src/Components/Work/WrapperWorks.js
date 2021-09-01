@@ -15,7 +15,7 @@ const WORKS = [
     // },
     {
         title:'ComunidavApp',
-        content:'Comnidav es una plataforma para donaciones, está desarrollada con HTML5, CSS5, JavaScript y PHP.',
+        content:'Comnidav es una plataforma para donaciones, está desarrollada con HTML5, CSS3, JavaScript y PHP.',
         important:'Actualmente me encuentro desarrollando la pagina existente con React JS, Sass y Redux.',
         link:'https://comunidav.org/'
     },
