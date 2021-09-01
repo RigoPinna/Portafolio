@@ -13,7 +13,6 @@
     "sass": "1.38.2",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://rigopinna.github.io/Portafolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
