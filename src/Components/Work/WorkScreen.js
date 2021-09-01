@@ -1,6 +1,6 @@
 import React from 'react'
 import { WrapperWorks } from './WrapperWorks'
-import handOK from '../../../public/assets/HandOk.png'
+import handOK from '../../assets/HandOk.png'
 export const WorkScreen = () => {
     return (
         <section className="__work">

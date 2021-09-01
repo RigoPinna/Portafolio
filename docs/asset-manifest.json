@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.e43defdf.chunk.css",
+    "main.js": "/Portafolio/static/js/main.20ed77f5.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.20ed77f5.chunk.js.map",
+    "runtime-main.js": "/Portafolio/static/js/runtime-main.7f21e80b.js",
+    "runtime-main.js.map": "/Portafolio/static/js/runtime-main.7f21e80b.js.map",
+    "static/js/2.7b342c1b.chunk.js": "/Portafolio/static/js/2.7b342c1b.chunk.js",
+    "static/js/2.7b342c1b.chunk.js.map": "/Portafolio/static/js/2.7b342c1b.chunk.js.map",
+    "index.html": "/Portafolio/index.html",
+    "static/css/main.e43defdf.chunk.css.map": "/Portafolio/static/css/main.e43defdf.chunk.css.map",
+    "static/js/2.7b342c1b.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.7b342c1b.chunk.js.LICENSE.txt",
+    "static/media/HandOk.a7401374.png": "/Portafolio/static/media/HandOk.a7401374.png",
+    "static/media/HandSelect.634c6725.png": "/Portafolio/static/media/HandSelect.634c6725.png",
+    "static/media/My-Photo.736b4a77.png": "/Portafolio/static/media/My-Photo.736b4a77.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f21e80b.js",
+    "static/js/2.7b342c1b.chunk.js",
+    "static/css/main.e43defdf.chunk.css",
+    "static/js/main.20ed77f5.chunk.js"
+  ]
+}

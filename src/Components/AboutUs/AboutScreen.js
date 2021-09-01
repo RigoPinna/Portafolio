@@ -1,5 +1,5 @@
 import React from 'react';
-import hand from '../../../public/assets/HandSelect.png'
+import hand from '../../assets/HandSelect.png'
 export const AboutScreen = () => {
     return (
         <section id="About" className="__about_us">

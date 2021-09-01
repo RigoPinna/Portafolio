@@ -1,5 +1,5 @@
 import React from 'react'
-import myAvatar from '../../../public/assets/My-Photo.png';
+import myAvatar from '../../assets/My-Photo.png';
 export const MyPhoto = () => {
     return (
         <div className="bg_avatar">
