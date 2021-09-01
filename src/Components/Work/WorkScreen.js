@@ -8,7 +8,7 @@ export const WorkScreen = () => {
                 <h2>Mis trabajos</h2>
             </div>
             <WrapperWorks />
-            <img src ={handOK} alt="Illustration hanlde"/>
+            <img src ='https://raw.githubusercontent.com/RigoPinna/Portafolio/main/src/assets/HandOk.png' alt="Illustration hanlde"/>
         </section>
     )
 }

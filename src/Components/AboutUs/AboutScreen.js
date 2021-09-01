@@ -13,7 +13,7 @@ export const AboutScreen = () => {
                     <p>Durante la etapa universitaria realicé mis prácticas profesionales en la empresa Comunidav, donde he desarrollado mis habilidades de liderazgo, trabajo en equipo y realizar múltiples tareas con limitaciones de tiempo.</p>
                </div>
             </div>
-            <img src = { hand } alt={'Illustration hand'}/>
+            <img src = 'https://raw.githubusercontent.com/RigoPinna/Portafolio/main/src/assets/HandSelect.png' alt={'Illustration hand'}/>
 
         </section>
     )
