@@ -11,7 +11,7 @@ export const FooterPag = () => {
             <div className ="__footer_items">
                 <div className="__footer_item_contact">
                     <h5>Teléfono</h5>
-                    <p>+52 (834)-254-2749</p>
+                    <p>+52 (834)-254-2740</p>
                 </div>
                 <div className="__footer_item_contact">
                     <h5>Correo electrónico</h5>
